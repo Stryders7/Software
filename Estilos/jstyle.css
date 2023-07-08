@@ -10,8 +10,7 @@ body {
 .cabecera{
 	padding: 20px 20px;
 	margin: 0 auto;
-	background: #fff;
-	border-bottom: 1px solid #e0e0e0;
+	background: #000000;
   }
   
   .img-container {
@@ -25,7 +24,7 @@ main {
 	width: 90%;
 	margin: auto;
 	padding: 40px;
-	background:URL(../img/059.jpg);
+	background:URL(../img/060.jpg);
 }
 
 .formulario {

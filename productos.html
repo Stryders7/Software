@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>El comilón</title>
+    <title>El Comilón</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="Estilos/style.css">
@@ -18,6 +18,10 @@
     <!-- Bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
+    		
+		<title>Tienda</title>
+		<link rel="stylesheet" href="Estilos/estilos.css" />
+
   </head>
   <body>
 
@@ -25,164 +29,229 @@
   <!-- Contenido 1 -->
 <section class="cabecera">
   <div class="img-container">
-  <a class="" href="pag_principal.html">
-    <img src="img/04.png" alt="" width="300" height="100%"/></a>
+  <a class="" href="index.html">
+    <img src="img/06.png" alt="" width="200" height="100%"/></a>
   </div>
 </section>
+<br><br>
 
-    <!-- Bootstrap Navbar responsive -->
+<div class="body1">
+  <header>
 
-    <header id="header"> 
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="menu col-lg-8 col-md-7 collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
-  
-              <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
-              </li>
-  
-              <li class="nav-item dropdown" id="li1">
-                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Comidas
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="asas.html">ComidaX</a></li>
-                  <li><a class="dropdown-item" href="asas.html">ComidaX</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown" id="li1">
-                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="link">Tragos</a></li>
-                  <li><a class="dropdown-item" href="link">Comidas</a></li>
-                </ul>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="formulario.html">Contacto</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-  
+    <h1>Menú</h1>
 
-<!-- Comidas -->
-<section class="contenido">
-    <div class="mostrador" id="mostrador">
-        <div class="fila">
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/018.png" alt="">
-                </div>
-                <p class="descripcion">CONSOME DE POLLO</p>
-                <span class="precio">$1.000</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/2.png" alt="">
-                </div>
-                <p class="descripcion" id>COMIDA 2 </p>
-                <span class="precio">$0</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/3.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 3
-                </p>
-                <span class="precio">$0</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/4.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 4</p>
-                <span class="precio">$0</span>
+    <div class="container-icon">
+        <div class="container-cart-icon">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-cart">
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
             </div>
         </div>
-        <div class="fila">
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/5.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 5</p>
-                <span class="precio">$ 0</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/6.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 6</p>
-                <span class="precio">$ 0</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/7.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 7</p>
-                <span class="precio">$ 0</span>
-            </div>
-            <div class="item" onclick="cargar(this)">
-                <div class="contenedor-foto">
-                    <img src="img/8.png" alt="">
-                </div>
-                <p class="descripcion">COMIDA 8</p>
-                <span class="precio">$ 0</span>
-            </div>
-        </div> 
-    </div>
-    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
-    <div class="seleccion" id="seleccion">
-        <div class="cerrar" onclick="cerrar()">
-            &#x2715
-        </div>
-        <div class="info">
-           <img src="" alt="" id="img">
-            <h2 id="modelo"></h2>
-            <p id="descripcion">""</p>
+        <br><br>
 
-            <span class="precio" id="precio">""</span>      
-
-            <div class="fila">
-                <button>AGREGAR AL CARRITO</button>                
+        <div class="container-cart-products hidden-cart">
+            <div class="row-product hidden">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Zapatos Nike</p>
+                        <span class="precio-producto-carrito">$80</span>
+                    </div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon-close"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </div>
             </div>
+	
+
+            <div class="cart-total hidden">
+                <h3>Total:</h3>
+                <span class="total-pagar">$200.000</span>
+            </div>
+            <p class="cart-empty">El carrito está vacío</p>
         </div>
     </div>
-</section>
-
+</header>
+<div class="container-items">
+    <div class="item">
+        <figure>
+            <img
+                src="https://locales.unimarc.cl/wp-content/files_mf/1677081479800x800POLLOARVEJADOCP.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Pollo arvejado</h2>
+            <p class="price">$3500</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img
+                src="https://bionoticias.cl/wp-content/uploads/2023/02/Porotos-granados-con-mazamorra07.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Porotos con Mazamorra</h2>
+            <p class="price">$3700</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img
+                src="https://cocinalocal.cl/wp-content/uploads/2021/08/pastel-de-papas.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Pastel de papas</h2>
+            <p class="price">$3700</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img
+                src="https://www.gourmet.cl/wp-content/uploads/2017/01/curanto-ajustada-570x458.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Curanto en olla</h2>
+            <p class="price">$4000</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+    <div class="item">
+        <figure>
+            <img
+                src="https://www.gourmet.cl/wp-content/uploads/2016/09/DSC04085-e1603217444150.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Porotos con rienda</h2>
+            <p class="price">$3500</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+	<div class="item">
+        <figure>
+            <img
+                src="https://www.tipicochileno.cl/wp-content/uploads/2021/05/zapallo-italiano-relleno-1200-628.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Zapallo italiano</h2>
+            <p class="price">$3500</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+	<div class="item">
+        <figure>
+            <img
+                src="https://cocinachilena.cl/wp-content/uploads/2019/08/torta-merengue-5-1024x683.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Torta merengue</h2>
+            <p class="price">$1500</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+	<div class="item">
+        <figure>
+            <img
+                src="https://www.comidastipicaschilenas.com/wp-content/uploads/2020/05/Receta-de-Pie-de-lim%C3%B3n.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Pie de <br>limón</h2>
+            <p class="price">$1500</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+	<div class="item">
+        <figure>
+            <img
+                src="https://mandolina.co/wp-content/uploads/2020/11/leche-asada.jpg"
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Leche <br>asada</h2>
+            <p class="price">$1200</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+	<div class="item">
+        <figure>
+            <img
+                src="https://media.istockphoto.com/id/470149152/es/foto/coca-cola-fanta-and-sprite-frascos-de-vidrio.jpg?s=170667a&w=0&k=20&c=CtXa5LGbwplRW8lheYG-qzCN5r7-35YTwlzzv4ctfO8="
+                alt="producto"
+            />
+        </figure>
+        <div class="info-product">
+            <h2>Bebidas CCU</h2>
+            <p class="price">$1000</p>
+            <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+    </div>
+</div>
+</div>
 
 <!--Footer hecho con boostrap-->
 <div class="container-fluid">
-  <div class="row p-5 pb-2 bg-dark text-white">
+  <div class="row p-5 pb-2 bg-black text-white">
 <!--Col xs y col md 6 es para pantallas medianas o grandes-->
       <div class="col-xs-12 col-md-6 col-lg-3">
-        <p class="h3">EL COMILÓN</p>          
+        <p class="h3">El Comilón</p>          
       </div>
       <div class="col-xs-12 col-md-6 col-lg-3">
         <p class="h5 mb-3">Cursos</p>
         <div class="mb-2">
-            <a class="text-secondary text-decoration-none" href="#">Pintura</a>
+            <a class="text-secondary text-decoration-none" href="#">link</a>
         </div>
         <div class="mb-2">
-            <a class="text-secondary text-decoration-none" href="#">Escultura</a>  
+            <a class="text-secondary text-decoration-none" href="#">link</a>  
         </div>
         <div class="mb-2"><!--Margen-->
-            <a class="text-secondary text-decoration-none" href="#">Resposteria</a>
+            <a class="text-secondary text-decoration-none" href="#">link</a>
         </div> 
         <div class="mb-2"><!--Margen-->
-            <a class="text-secondary text-decoration-none" href="#">Tejido</a>
+            <a class="text-secondary text-decoration-none" href="#">link</a>
         </div> 
         <div class="mb-2"><!--Margen-->
-            <a class="text-secondary text-decoration-none" href="#">Orfebrería</a>
+            <a class="text-secondary text-decoration-none" href="#">link</a>
         </div> 
       </div>
       <div class="col-xs-12 col-md-6 col-lg-3">
@@ -204,20 +273,25 @@
           </div>  
       </div>
       <div class="col-xs-12 pt-4">
-          <p class="text-white text-center">Copyrigth - All rights reserved 2022</p>
+          <p class="text-white text-center">Copyrigth - All rights reserved 2023</p>
       </div>
   </div>
 </div>
 
-    <!-- JS -->
-    <script src="js/productos.js"></script>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
     <!-- Jquery -->
+
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
             integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+            <script src="js/form.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+<script src="js/index.js"></script>
 
   </body>
 </html>

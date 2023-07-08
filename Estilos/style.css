@@ -26,8 +26,8 @@ html{
 .cabecera{
   padding: 20px 20px;
   margin: 0 auto;
-  background: #fff;
-  color: rgb(63, 63, 63);
+  background: #000000;
+  height: 190px;
 }
 
 .img-container {
@@ -50,13 +50,12 @@ html{
 /*NAVBAR*/
 .nav-item  {
   float: left;
-  border-right: 1px solid #e0e0e0;
   padding: 4px;
 }
 
 nav{
 
-    background-color: #fff;
+    background-color:  rgb(0, 0, 0);
 }
 
 .navbar-brand {
@@ -70,7 +69,7 @@ nav{
 }
 
 .nav-link:hover{
-  background-color: #788954;
+  background-color: #2a2a2a;
   opacity: 1;
   transition: all 0.2s;
 }
@@ -81,15 +80,13 @@ nav{
   padding: 0;
   margin: 0 auto 20px;
   width: 100%;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
   line-height: 0;
 }
 
 #header .menu a {
   text-transform: uppercase;
   font-size: 14px;
-  color: #383838;
+  color: #cdcd26;
   letter-spacing: 0;
   font-weight: bold;
   line-height: 26px;
@@ -97,6 +94,7 @@ nav{
   position: relative;
   padding: 13px 25px;
 } 
+
 /* fin de nav */
 
 
@@ -107,7 +105,7 @@ nav{
 
 .display1{
 display: inline-block;
-background: #788954;
+background:  black;
 font-size: 15px;
 color:#fff;
 letter-spacing: 0.2em;
@@ -149,7 +147,7 @@ margin-right: 30%;
 }
 
 .informacion{
-  background-color: #afb89a;
+  background-color: #000000;
   padding: 70px 500px;
   color:#fff;
   font-size:16px;
@@ -266,26 +264,7 @@ clip-path: polygon(
 
 }
 
-/*COMENTARIOS*/
-
-.comments{
-    background:URL(../img/01.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-.comments__img{
-    --tamano: 80px;
-    width: var(--tamano);
-    height: var(--tamano);
-    object-fit:cover;
-    border-radius: 50%;
-    box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
-    border: 3px ridge #fff;
-}
-
-/*SECCIÓN ARTE O PRODUCTOS*/
+/*SECCIÓN PRODUCTOS*/
 *{
     margin: 0;
     padding: 0;
@@ -406,7 +385,7 @@ clip-path: polygon(
     background-color: #f85151;
 }
 
-/*CONTENIDO ARTISTAS*/
+/*CONTENIDO*/
 .about {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
